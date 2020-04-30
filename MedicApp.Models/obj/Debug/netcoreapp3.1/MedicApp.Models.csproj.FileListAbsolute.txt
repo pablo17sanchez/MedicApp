@@ -1,0 +1,9 @@
+C:\Users\pablo\source\repos\MedicApp\MedicApp.Models\bin\Debug\netcoreapp3.1\MedicApp.Models.deps.json
+C:\Users\pablo\source\repos\MedicApp\MedicApp.Models\bin\Debug\netcoreapp3.1\MedicApp.Models.dll
+C:\Users\pablo\source\repos\MedicApp\MedicApp.Models\bin\Debug\netcoreapp3.1\MedicApp.Models.pdb
+C:\Users\pablo\source\repos\MedicApp\MedicApp.Models\obj\Debug\netcoreapp3.1\MedicApp.Models.csproj.CoreCompileInputs.cache
+C:\Users\pablo\source\repos\MedicApp\MedicApp.Models\obj\Debug\netcoreapp3.1\MedicApp.Models.AssemblyInfoInputs.cache
+C:\Users\pablo\source\repos\MedicApp\MedicApp.Models\obj\Debug\netcoreapp3.1\MedicApp.Models.AssemblyInfo.cs
+C:\Users\pablo\source\repos\MedicApp\MedicApp.Models\obj\Debug\netcoreapp3.1\MedicApp.Models.dll
+C:\Users\pablo\source\repos\MedicApp\MedicApp.Models\obj\Debug\netcoreapp3.1\MedicApp.Models.pdb
+C:\Users\pablo\source\repos\MedicApp\MedicApp.Models\obj\Debug\netcoreapp3.1\MedicApp.Models.csprojAssemblyReference.cache

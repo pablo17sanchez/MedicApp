@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "efQnHXkHddZuQmqf6/aLKSn/+DENskhin0/NDWX4BMrEtx8Paf+v3DQcqJSXv7qmdFMb9YjUoK/U357ozYKUbQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\pablo\\source\\repos\\MedicApp\\PersistenciaDB\\PersistenciaDB.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pablo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

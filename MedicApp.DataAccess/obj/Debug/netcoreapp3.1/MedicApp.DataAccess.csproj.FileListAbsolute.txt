@@ -1,0 +1,14 @@
+C:\Users\pablo\source\repos\MedicApp\MedicApp.DataAccess\bin\Debug\netcoreapp3.1\MedicApp.Models.dll
+C:\Users\pablo\source\repos\MedicApp\MedicApp.DataAccess\bin\Debug\netcoreapp3.1\MedicApp.Repositories.dll
+C:\Users\pablo\source\repos\MedicApp\MedicApp.DataAccess\obj\Debug\netcoreapp3.1\MedicApp.DataAccess.csprojAssemblyReference.cache
+C:\Users\pablo\source\repos\MedicApp\MedicApp.DataAccess\obj\Debug\netcoreapp3.1\MedicApp.DataAccess.AssemblyInfoInputs.cache
+C:\Users\pablo\source\repos\MedicApp\MedicApp.DataAccess\obj\Debug\netcoreapp3.1\MedicApp.DataAccess.AssemblyInfo.cs
+C:\Users\pablo\source\repos\MedicApp\MedicApp.DataAccess\bin\Debug\netcoreapp3.1\MedicApp.DataAccess.deps.json
+C:\Users\pablo\source\repos\MedicApp\MedicApp.DataAccess\bin\Debug\netcoreapp3.1\MedicApp.DataAccess.dll
+C:\Users\pablo\source\repos\MedicApp\MedicApp.DataAccess\bin\Debug\netcoreapp3.1\MedicApp.DataAccess.pdb
+C:\Users\pablo\source\repos\MedicApp\MedicApp.DataAccess\bin\Debug\netcoreapp3.1\MedicApp.Models.pdb
+C:\Users\pablo\source\repos\MedicApp\MedicApp.DataAccess\bin\Debug\netcoreapp3.1\MedicApp.Repositories.pdb
+C:\Users\pablo\source\repos\MedicApp\MedicApp.DataAccess\obj\Debug\netcoreapp3.1\MedicApp.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\pablo\source\repos\MedicApp\MedicApp.DataAccess\obj\Debug\netcoreapp3.1\MedicApp.DataAccess.csproj.CopyComplete
+C:\Users\pablo\source\repos\MedicApp\MedicApp.DataAccess\obj\Debug\netcoreapp3.1\MedicApp.DataAccess.dll
+C:\Users\pablo\source\repos\MedicApp\MedicApp.DataAccess\obj\Debug\netcoreapp3.1\MedicApp.DataAccess.pdb

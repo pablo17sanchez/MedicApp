@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "MedicApp.Repositories/1.0.0": {
+        "dependencies": {
+          "MedicApp.Models": "1.0.0"
+        },
+        "runtime": {
+          "MedicApp.Repositories.dll": {}
+        }
+      },
+      "MedicApp.Models/1.0.0": {
+        "runtime": {
+          "MedicApp.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MedicApp.Repositories/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MedicApp.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

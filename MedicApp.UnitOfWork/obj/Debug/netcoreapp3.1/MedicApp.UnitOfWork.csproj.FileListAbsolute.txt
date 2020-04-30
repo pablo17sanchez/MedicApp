@@ -1,0 +1,14 @@
+C:\Users\pablo\source\repos\MedicApp\MedicApp.UnitOfWork\bin\Debug\netcoreapp3.1\MedicApp.UnitOfWork.deps.json
+C:\Users\pablo\source\repos\MedicApp\MedicApp.UnitOfWork\bin\Debug\netcoreapp3.1\MedicApp.UnitOfWork.dll
+C:\Users\pablo\source\repos\MedicApp\MedicApp.UnitOfWork\bin\Debug\netcoreapp3.1\MedicApp.UnitOfWork.pdb
+C:\Users\pablo\source\repos\MedicApp\MedicApp.UnitOfWork\obj\Debug\netcoreapp3.1\MedicApp.UnitOfWork.csproj.CoreCompileInputs.cache
+C:\Users\pablo\source\repos\MedicApp\MedicApp.UnitOfWork\obj\Debug\netcoreapp3.1\MedicApp.UnitOfWork.AssemblyInfoInputs.cache
+C:\Users\pablo\source\repos\MedicApp\MedicApp.UnitOfWork\obj\Debug\netcoreapp3.1\MedicApp.UnitOfWork.AssemblyInfo.cs
+C:\Users\pablo\source\repos\MedicApp\MedicApp.UnitOfWork\obj\Debug\netcoreapp3.1\MedicApp.UnitOfWork.dll
+C:\Users\pablo\source\repos\MedicApp\MedicApp.UnitOfWork\obj\Debug\netcoreapp3.1\MedicApp.UnitOfWork.pdb
+C:\Users\pablo\source\repos\MedicApp\MedicApp.UnitOfWork\bin\Debug\netcoreapp3.1\MedicApp.Models.dll
+C:\Users\pablo\source\repos\MedicApp\MedicApp.UnitOfWork\bin\Debug\netcoreapp3.1\MedicApp.Repositories.dll
+C:\Users\pablo\source\repos\MedicApp\MedicApp.UnitOfWork\bin\Debug\netcoreapp3.1\MedicApp.Repositories.pdb
+C:\Users\pablo\source\repos\MedicApp\MedicApp.UnitOfWork\bin\Debug\netcoreapp3.1\MedicApp.Models.pdb
+C:\Users\pablo\source\repos\MedicApp\MedicApp.UnitOfWork\obj\Debug\netcoreapp3.1\MedicApp.UnitOfWork.csprojAssemblyReference.cache
+C:\Users\pablo\source\repos\MedicApp\MedicApp.UnitOfWork\obj\Debug\netcoreapp3.1\MedicApp.UnitOfWork.csproj.CopyComplete

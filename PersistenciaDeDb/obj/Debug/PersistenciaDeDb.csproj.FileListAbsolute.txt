@@ -1,0 +1,12 @@
+C:\Users\pablo\source\repos\MedicApp\PersistenciaDeDb\bin\Debug\PersistenciaDeDb.dll.config
+C:\Users\pablo\source\repos\MedicApp\PersistenciaDeDb\bin\Debug\PersistenciaDeDb.dll
+C:\Users\pablo\source\repos\MedicApp\PersistenciaDeDb\bin\Debug\PersistenciaDeDb.pdb
+C:\Users\pablo\source\repos\MedicApp\PersistenciaDeDb\bin\Debug\EntityFramework.dll
+C:\Users\pablo\source\repos\MedicApp\PersistenciaDeDb\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\pablo\source\repos\MedicApp\PersistenciaDeDb\bin\Debug\EntityFramework.xml
+C:\Users\pablo\source\repos\MedicApp\PersistenciaDeDb\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\pablo\source\repos\MedicApp\PersistenciaDeDb\obj\Debug\PersistenciaDeDb.csprojAssemblyReference.cache
+C:\Users\pablo\source\repos\MedicApp\PersistenciaDeDb\obj\Debug\PersistenciaDeDb.csproj.CoreCompileInputs.cache
+C:\Users\pablo\source\repos\MedicApp\PersistenciaDeDb\obj\Debug\PersistenciaDeDb.csproj.CopyComplete
+C:\Users\pablo\source\repos\MedicApp\PersistenciaDeDb\obj\Debug\PersistenciaDeDb.dll
+C:\Users\pablo\source\repos\MedicApp\PersistenciaDeDb\obj\Debug\PersistenciaDeDb.pdb

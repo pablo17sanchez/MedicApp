@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MedicApp.Models\MedicApp.Models.csproj" />
+    <ProjectReference Include="..\MedicApp.UnitOfWork\MedicApp.UnitOfWork.csproj" />
+  </ItemGroup>
+
+</Project>

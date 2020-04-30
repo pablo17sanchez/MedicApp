@@ -1,0 +1,135 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "MedicApp.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/MedicApp.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MedicApp.Models.dll": {}
+        }
+      },
+      "MedicApp.Repositories/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "MedicApp.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MedicApp.Repositories.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MedicApp.Repositories.dll": {}
+        }
+      },
+      "MedicApp.UnitOfWork/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "MedicApp.Repositories": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MedicApp.UnitOfWork.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MedicApp.UnitOfWork.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MedicApp.Models/1.0.0": {
+      "type": "project",
+      "path": "../MedicApp.Models/MedicApp.Models.csproj",
+      "msbuildProject": "../MedicApp.Models/MedicApp.Models.csproj"
+    },
+    "MedicApp.Repositories/1.0.0": {
+      "type": "project",
+      "path": "../MedicApp.Repositories/MedicApp.Repositories.csproj",
+      "msbuildProject": "../MedicApp.Repositories/MedicApp.Repositories.csproj"
+    },
+    "MedicApp.UnitOfWork/1.0.0": {
+      "type": "project",
+      "path": "../MedicApp.UnitOfWork/MedicApp.UnitOfWork.csproj",
+      "msbuildProject": "../MedicApp.UnitOfWork/MedicApp.UnitOfWork.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "MedicApp.Models >= 1.0.0",
+      "MedicApp.UnitOfWork >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\pablo\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\pablo\\source\\repos\\MedicApp\\MedicApp.BusinessLogic\\MedicApp.BusinessLogic.csproj",
+      "projectName": "MedicApp.BusinessLogic",
+      "projectPath": "C:\\Users\\pablo\\source\\repos\\MedicApp\\MedicApp.BusinessLogic\\MedicApp.BusinessLogic.csproj",
+      "packagesPath": "C:\\Users\\pablo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pablo\\source\\repos\\MedicApp\\MedicApp.BusinessLogic\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\pablo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\pablo\\source\\repos\\MedicApp\\MedicApp.Models\\MedicApp.Models.csproj": {
+              "projectPath": "C:\\Users\\pablo\\source\\repos\\MedicApp\\MedicApp.Models\\MedicApp.Models.csproj"
+            },
+            "C:\\Users\\pablo\\source\\repos\\MedicApp\\MedicApp.UnitOfWork\\MedicApp.UnitOfWork.csproj": {
+              "projectPath": "C:\\Users\\pablo\\source\\repos\\MedicApp\\MedicApp.UnitOfWork\\MedicApp.UnitOfWork.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
