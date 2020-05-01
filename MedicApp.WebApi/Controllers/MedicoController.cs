@@ -45,7 +45,7 @@ namespace MedicApp.WebApi.Controllers
         }
         [HttpGet]
         [Route("GetPaginatedMedicos/{page:int}/{rows:int}")]
-        public IActionResult GetPaginatedCustomer(int page, int rows)
+        public IActionResult GetPaginatedMedicos(int page, int rows)
         {
             return Ok(_logic.MedicoPagedList(page, rows));
         }

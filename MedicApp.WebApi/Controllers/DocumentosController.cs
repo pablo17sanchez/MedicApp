@@ -6,10 +6,11 @@ namespace MedicApp.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ProvinciaController : ControllerBase
+    public class DocumentosController : ControllerBase
     {
-        private readonly IProvinciaLogic _logic;
-        public ProvinciaController(IProvinciaLogic logic)
+
+        private readonly IDocumentosLogic _logic;
+        public DocumentosController(IDocumentosLogic logic)
         {
             _logic = logic;
 
@@ -26,36 +27,36 @@ namespace MedicApp.WebApi.Controllers
             return Ok(_logic.GetById(id));
 
         }
-        [HttpGet]
-        [Route("GetPaginatedProvincias/{page:int}/{rows:int}")]
-        public IActionResult GetPaginatedProvincias(int page, int rows)
-        {
-            return Ok(_logic.ProvinciaPagedList(page, rows));
-        }
+
         // POST: api/Paciente
         [HttpPost]
-        public IActionResult Post([FromBody]Provincia provincia)
+        public IActionResult Post([FromBody]Documentos documento)
         {
             if (!ModelState.IsValid) return BadRequest();
-            return Ok(_logic.Insert(provincia));
+            return Ok(_logic.Insert(documento));
         }
         [HttpPut]
-        public IActionResult Put([FromBody]Provincia provincia)
+        public IActionResult Put([FromBody]Documentos documento)
         {
-            if (ModelState.IsValid && _logic.Update(provincia))
+            if (ModelState.IsValid && _logic.Update(documento))
             {
-                return Ok(new { Message = "La provincia se actualizo correctamente" });
+                return Ok(new { Message = "El documento se actualizo correctamente" });
             }
             return BadRequest();
         }
-
+        [HttpGet]
+        [Route("GetPaginatedDocumentos/{page:int}/{rows:int}")]
+        public IActionResult GetPaginatedDocumentos(int page, int rows)
+        {
+            return Ok(_logic.DocumentosPagedList(page, rows));
+        }
         // DELETE: api/ApiWithActions/5
         [HttpDelete]
-        public IActionResult Delete([FromBody]Provincia provincia)
+        public IActionResult Delete([FromBody]Documentos documento)
         {
-            if (provincia.ProvinciaId > 0)
+            if (documento.DocumentoId > 0)
             {
-                return Ok(_logic.Delete(provincia));
+                return Ok(_logic.Delete(documento));
             }
             return BadRequest();
         }

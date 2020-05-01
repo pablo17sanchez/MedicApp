@@ -6,10 +6,11 @@ namespace MedicApp.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ProvinciaController : ControllerBase
+    public class ARSController : ControllerBase
     {
-        private readonly IProvinciaLogic _logic;
-        public ProvinciaController(IProvinciaLogic logic)
+
+        private readonly IArsLogic _logic;
+        public ARSController(IArsLogic logic)
         {
             _logic = logic;
 
@@ -26,36 +27,36 @@ namespace MedicApp.WebApi.Controllers
             return Ok(_logic.GetById(id));
 
         }
-        [HttpGet]
-        [Route("GetPaginatedProvincias/{page:int}/{rows:int}")]
-        public IActionResult GetPaginatedProvincias(int page, int rows)
-        {
-            return Ok(_logic.ProvinciaPagedList(page, rows));
-        }
+
         // POST: api/Paciente
         [HttpPost]
-        public IActionResult Post([FromBody]Provincia provincia)
+        public IActionResult Post([FromBody]ARS ars)
         {
             if (!ModelState.IsValid) return BadRequest();
-            return Ok(_logic.Insert(provincia));
+            return Ok(_logic.Insert(ars));
         }
         [HttpPut]
-        public IActionResult Put([FromBody]Provincia provincia)
+        public IActionResult Put([FromBody]ARS ars)
         {
-            if (ModelState.IsValid && _logic.Update(provincia))
+            if (ModelState.IsValid && _logic.Update(ars))
             {
-                return Ok(new { Message = "La provincia se actualizo correctamente" });
+                return Ok(new { Message = "La ars se actualizo correctamente" });
             }
             return BadRequest();
         }
-
+        [HttpGet]
+        [Route("GetPaginatedArs/{page:int}/{rows:int}")]
+        public IActionResult GetPaginatedArs(int page, int rows)
+        {
+            return Ok(_logic.ARSPagedList(page, rows));
+        }
         // DELETE: api/ApiWithActions/5
         [HttpDelete]
-        public IActionResult Delete([FromBody]Provincia provincia)
+        public IActionResult Delete([FromBody]ARS ars)
         {
-            if (provincia.ProvinciaId > 0)
+            if (ars.ARSId > 0)
             {
-                return Ok(_logic.Delete(provincia));
+                return Ok(_logic.Delete(ars));
             }
             return BadRequest();
         }

@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedicApp.UnitOfWork", "Medi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedicApp.WebApi", "MedicApp.WebApi\MedicApp.WebApi.csproj", "{ACD9C497-106D-4214-A000-E6CC772AB05B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersistenciaCOre", "PersistenciaCOre\PersistenciaCOre.csproj", "{6C095884-4D8D-40B7-81E5-A34226E0DC52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersistenciaCOre", "PersistenciaCOre\PersistenciaCOre.csproj", "{6C095884-4D8D-40B7-81E5-A34226E0DC52}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
