@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29911.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicApp.BusinessLogic", "MedicApp.BusinessLogic\MedicApp.BusinessLogic.csproj", "{DF2C0FBC-1AFF-422B-936B-EFC9111F6425}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedicApp.BusinessLogic", "MedicApp.BusinessLogic\MedicApp.BusinessLogic.csproj", "{DF2C0FBC-1AFF-422B-936B-EFC9111F6425}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicApp.DataAccess", "MedicApp.DataAccess\MedicApp.DataAccess.csproj", "{79C742D9-5EBE-4652-B74B-11C3A21BA861}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedicApp.DataAccess", "MedicApp.DataAccess\MedicApp.DataAccess.csproj", "{79C742D9-5EBE-4652-B74B-11C3A21BA861}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicApp.Models", "MedicApp.Models\MedicApp.Models.csproj", "{D32E2B06-14E4-400A-AAB7-E4CFEE76A863}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedicApp.Models", "MedicApp.Models\MedicApp.Models.csproj", "{D32E2B06-14E4-400A-AAB7-E4CFEE76A863}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicApp.Repositories", "MedicApp.Repositories\MedicApp.Repositories.csproj", "{ECB2D638-4F34-4373-B81E-37A752E7F3B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedicApp.Repositories", "MedicApp.Repositories\MedicApp.Repositories.csproj", "{ECB2D638-4F34-4373-B81E-37A752E7F3B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicApp.UnitOfWork", "MedicApp.UnitOfWork\MedicApp.UnitOfWork.csproj", "{4D9D7D91-0EFD-43E0-9C5E-0372DB7169CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedicApp.UnitOfWork", "MedicApp.UnitOfWork\MedicApp.UnitOfWork.csproj", "{4D9D7D91-0EFD-43E0-9C5E-0372DB7169CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicApp.WebApi", "MedicApp.WebApi\MedicApp.WebApi.csproj", "{ACD9C497-106D-4214-A000-E6CC772AB05B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedicApp.WebApi", "MedicApp.WebApi\MedicApp.WebApi.csproj", "{ACD9C497-106D-4214-A000-E6CC772AB05B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersistenciaDeDb", "PersistenciaDeDb\PersistenciaDeDb.csproj", "{87653F1A-172B-4056-A260-7D299796AF48}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersistenciaCOre", "PersistenciaCOre\PersistenciaCOre.csproj", "{6C095884-4D8D-40B7-81E5-A34226E0DC52}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,10 +47,10 @@ Global
 		{ACD9C497-106D-4214-A000-E6CC772AB05B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACD9C497-106D-4214-A000-E6CC772AB05B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACD9C497-106D-4214-A000-E6CC772AB05B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{87653F1A-172B-4056-A260-7D299796AF48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{87653F1A-172B-4056-A260-7D299796AF48}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{87653F1A-172B-4056-A260-7D299796AF48}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{87653F1A-172B-4056-A260-7D299796AF48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C095884-4D8D-40B7-81E5-A34226E0DC52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C095884-4D8D-40B7-81E5-A34226E0DC52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C095884-4D8D-40B7-81E5-A34226E0DC52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C095884-4D8D-40B7-81E5-A34226E0DC52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

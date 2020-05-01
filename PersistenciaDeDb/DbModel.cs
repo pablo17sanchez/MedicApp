@@ -25,6 +25,7 @@ namespace PersistenciaDeDb
         public virtual DbSet<Provincia> Provincias { get; set; }
         public virtual DbSet<Sector> Sectors { get; set; }
         public virtual DbSet<Servicio> Servicios { get; set; }
+        public virtual DbSet<Usuario> Usuario { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

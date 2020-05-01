@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "xikJ0e36wqwdKiprrUF1oWYzcSWqWkmOe/uVkxIcy+gFvo9V3r76GRctg+4prTnXfqbxUOOCfFXJSzi4rir7Mw==",
+  "dgSpecHash": "mVVttpznLX73I8JSJDXbGnlxxMT0eM+vdg6LkpmaUyOzWP9FRn2grOkxib4qaLWyudy/jY6KD8GQN8wG4B3DRw==",
   "success": true,
   "projectFilePath": "C:\\Users\\pablo\\source\\repos\\MedicApp\\MedicApp.UnitOfWork\\MedicApp.UnitOfWork.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\pablo\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
+    "C:\\Users\\pablo\\.nuget\\packages\\dapper.contrib\\2.0.35\\dapper.contrib.2.0.35.nupkg.sha512",
+    "C:\\Users\\pablo\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\pablo\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
+    "C:\\Users\\pablo\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -21,6 +21,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MedicApp.BusinessLogic\MedicApp.BusinessLogic.csproj" />
+    <ProjectReference Include="..\MedicApp.DataAccess\MedicApp.DataAccess.csproj" />
+    <ProjectReference Include="..\MedicApp.Models\MedicApp.Models.csproj" />
   </ItemGroup>
 
 </Project>

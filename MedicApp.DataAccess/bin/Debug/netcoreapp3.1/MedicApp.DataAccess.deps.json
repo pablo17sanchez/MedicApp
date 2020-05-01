@@ -12,6 +12,7 @@
           "Dapper.Contrib": "2.0.35",
           "MedicApp.Models": "1.0.0",
           "MedicApp.Repositories": "1.0.0",
+          "MedicApp.UnitOfWork": "1.0.0",
           "System.Data.SqlClient": "4.8.1"
         },
         "runtime": {
@@ -121,6 +122,10 @@
       },
       "System.Security.Principal.Windows/4.7.0": {},
       "MedicApp.Models/1.0.0": {
+        "dependencies": {
+          "Dapper": "2.0.35",
+          "Dapper.Contrib": "2.0.35"
+        },
         "runtime": {
           "MedicApp.Models.dll": {}
         }
@@ -131,6 +136,14 @@
         },
         "runtime": {
           "MedicApp.Repositories.dll": {}
+        }
+      },
+      "MedicApp.UnitOfWork/1.0.0": {
+        "dependencies": {
+          "MedicApp.Repositories": "1.0.0"
+        },
+        "runtime": {
+          "MedicApp.UnitOfWork.dll": {}
         }
       }
     }
@@ -245,6 +258,11 @@
       "sha512": ""
     },
     "MedicApp.Repositories/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MedicApp.UnitOfWork/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

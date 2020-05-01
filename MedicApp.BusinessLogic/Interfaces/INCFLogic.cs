@@ -9,11 +9,11 @@ namespace MedicApp.BusinessLogic.Interfaces
    public interface INCFLogic
     {
 
-        NFC GetById(int id);
-        IEnumerable<NFC> GetList();
-        IEnumerable<NFCList> NCFPagedList(int page, int rows);
-        int Insert(NFC nfc);
-        bool Update(NFC nfc);
-        bool Delete(NFC nfc);
+        NCF GetById(int id);
+        IEnumerable<NCF> GetList();
+        IEnumerable<NCFList> NCFPagedList(int page, int rows);
+        int Insert(NCF ncf);
+        bool Update(NCF ncf);
+        bool Delete(NCF ncf);
     }
 }

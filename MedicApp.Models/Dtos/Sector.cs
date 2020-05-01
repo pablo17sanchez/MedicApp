@@ -1,7 +1,10 @@
-﻿namespace MedicApp.Models.Dtos
+﻿using Dapper.Contrib.Extensions;
+namespace MedicApp.Models.Dtos
 {
     public class Sector
     {
+        
+        [Key]
         public int SectorId { get; set; }
 
 

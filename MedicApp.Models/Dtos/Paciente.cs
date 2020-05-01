@@ -1,9 +1,10 @@
 ﻿using System;
-
+using Dapper.Contrib.Extensions;
 namespace MedicApp.Models.Dtos
 {
     public class Paciente
     {
+        [Key]
         public int IdPaciente { get; set; }
 
        
@@ -16,8 +17,8 @@ namespace MedicApp.Models.Dtos
 
         public bool Status { get; set; }
 
-     
-        public DateTime Fmodificacion { get; set; }
+
+        public DateTime Fmodificacion { get; set; } = DateTime.Now;
 
      
         public DateTime Fcreacion { get; set; }

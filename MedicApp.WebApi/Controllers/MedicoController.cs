@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using MedicApp.BusinessLogic.Interfaces;
+using MedicApp.Models.Dtos;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -18,41 +19,55 @@ namespace MedicApp.WebApi.Controllers
         public MedicoController(IMedicoLogic logic)
         {
             _logic = logic;
+            
         }
 
-
-        // GET: api/Medico
-        [HttpGet]
-        public IEnumerable<string> Get()
-        {
-            return new string[] { "value1", "value2" };
-        }
 
         // GET: api/Medico/5
-        [HttpGet("{id}", Name = "Get")]
+        [HttpGet("{id}")]
         public IActionResult GetById(int id)
         {
             return Ok(_logic.GetById(id));
 
 
         }
-
-        // POST: api/Medico
-        [HttpPost]
-        public void Post([FromBody] string value)
+        [HttpGet]
+        public IActionResult GetAll()
         {
+            return Ok(_logic.GetList());
         }
 
-        // PUT: api/Medico/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        [HttpPost]
+        public IActionResult Post([FromBody]Medico medico)
         {
+            if (!ModelState.IsValid) return BadRequest();
+            return Ok(_logic.Insert(medico));
+        }
+        [HttpGet]
+        [Route("GetPaginatedMedicos/{page:int}/{rows:int}")]
+        public IActionResult GetPaginatedCustomer(int page, int rows)
+        {
+            return Ok(_logic.MedicoPagedList(page, rows));
+        }
+        [HttpPut]
+        public IActionResult Put([FromBody]Medico medico)
+        {
+            if (ModelState.IsValid && _logic.Update(medico))
+            {
+                return Ok(new { Message = "El medico se actualizo correctamente" });
+            }
+            return BadRequest();
         }
 
         // DELETE: api/ApiWithActions/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
+        [HttpDelete]
+        public IActionResult Delete([FromBody]Medico medico)
         {
+            if (medico.MedicoId > 0)
+            {
+                return Ok(_logic.Delete(medico));
+            }
+            return BadRequest();
         }
     }
 }

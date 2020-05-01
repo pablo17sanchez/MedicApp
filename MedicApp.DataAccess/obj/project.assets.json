@@ -187,6 +187,10 @@
       "MedicApp.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Dapper": "2.0.35",
+          "Dapper.Contrib": "2.0.35"
+        },
         "compile": {
           "bin/placeholder/MedicApp.Models.dll": {}
         },

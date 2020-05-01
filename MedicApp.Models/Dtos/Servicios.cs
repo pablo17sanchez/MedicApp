@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-
+using Dapper.Contrib.Extensions;
 namespace MedicApp.Models.Dtos
 {
     public class Servicios
     {
 
-  
+        [Key]
         public string ServicioId { get; set; }
 
 
@@ -16,16 +16,16 @@ namespace MedicApp.Models.Dtos
 
         public decimal? ITBIS { get; set; }
 
-     
+
         public string NombreProducto { get; set; }
 
 
         public decimal Precio { get; set; }
 
-   
+
         public decimal Tipo { get; set; }
 
-       
+
         public string Parametro { get; set; }
 
 

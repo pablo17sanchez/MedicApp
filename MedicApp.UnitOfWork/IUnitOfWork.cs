@@ -11,6 +11,7 @@ namespace MedicApp.UnitOfWork
         IPacienteRepository Paciente { get; }
         IProvinciaRepository Provincia { get; }
         IServicioRepository Servicio { get; }
-        INFCRepository NFC { get; }
+        INCFRepository NCF { get; }
+        IDocumentosRepository Documentos { get; }
     }
 }

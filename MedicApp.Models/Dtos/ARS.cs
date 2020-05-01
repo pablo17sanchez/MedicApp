@@ -1,10 +1,10 @@
 ﻿using System;
-
+using Dapper.Contrib.Extensions;
 namespace MedicApp.Models.Dtos
 {
     public class ARS
     {
-
+        [Key]
         public int ARSId { get; set; }
 
 

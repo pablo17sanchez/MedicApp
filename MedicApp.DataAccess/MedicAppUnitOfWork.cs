@@ -14,6 +14,9 @@ namespace MedicApp.DataAccess
             Paciente = new PacienteRepository(connectionString);
             Provincia = new ProvinciaRepository(connectionString);
             Servicio = new ServicioRepository(connectionString);
+            Documentos = new DocumentosRepository(connectionString);
+            NCF = new NCFRepository(connectionString);
+
         }
 
         public IMedicoRepository Medico { get; private set; }
@@ -29,5 +32,9 @@ namespace MedicApp.DataAccess
         public IProvinciaRepository Provincia { get; private set; }
 
         public IServicioRepository Servicio { get; private set; }
-}
+
+        public INCFRepository NCF { get; private set; }
+
+        public IDocumentosRepository Documentos { get; private set; }
+    }
 }

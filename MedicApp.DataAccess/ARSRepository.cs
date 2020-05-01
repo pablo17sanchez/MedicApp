@@ -11,6 +11,8 @@ namespace MedicApp.DataAccess
 {
     public class ARSRepository : Repository<ARS>, IArsRepository
     {
+
+
         public ARSRepository(string connectionString) : base(connectionString)
         {
 

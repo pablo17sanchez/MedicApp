@@ -1,8 +1,9 @@
-﻿namespace MedicApp.Models.Dtos
+﻿using Dapper.Contrib.Extensions;
+namespace MedicApp.Models.Dtos
 {
     public class Provincia
     {
-
+        [Key]
         public int ProvinciaId { get; set; }
 
 

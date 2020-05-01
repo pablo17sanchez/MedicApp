@@ -12,6 +12,10 @@ using MedicApp.WebApi.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using MedicApp.BusinessLogic.Interfaces;
+using MedicApp.BusinessLogic.Implementations;
+using MedicApp.UnitOfWork;
+using MedicApp.DataAccess;
 
 namespace MedicApp.WebApi
 {
@@ -27,6 +31,21 @@ namespace MedicApp.WebApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
+            services.AddTransient<IArsLogic, ARSLogic>();
+            services.AddTransient<IConsultorioLogic, ConsultorioLogic>();
+            services.AddTransient<IDocumentosLogic, DocumentosLogic>();
+            services.AddTransient<IMedicoLogic, MedicoLogic>();
+            services.AddTransient<INCFLogic, NCFLogic>();
+            services.AddTransient<IPacienteLogic, PacienteLogic>();
+            services.AddTransient<IProvinciaLogic, ProvinciaLogic>();
+            services.AddTransient<ISectorLogic, SectorLogic>();
+            services.AddTransient<IServicioLogic, ServicioLogic>();
+            services.AddSingleton<IUnitOfWork>(option => new MedicAppUnitOfWork(
+               Configuration.GetConnectionString("Store")
+               ));
+
+
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
