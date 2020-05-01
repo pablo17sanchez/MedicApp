@@ -1,5 +1,0 @@
-C:\Users\pablo\source\repos\MedicApp\PersistenciaCOre\bin\Debug\netcoreapp3.1\PersistenciaCOre.deps.json
-C:\Users\pablo\source\repos\MedicApp\PersistenciaCOre\bin\Debug\netcoreapp3.1\PersistenciaCOre.dll
-C:\Users\pablo\source\repos\MedicApp\PersistenciaCOre\obj\Debug\netcoreapp3.1\PersistenciaCOre.csprojAssemblyReference.cache
-C:\Users\pablo\source\repos\MedicApp\PersistenciaCOre\obj\Debug\netcoreapp3.1\PersistenciaCOre.AssemblyInfoInputs.cache
-C:\Users\pablo\source\repos\MedicApp\PersistenciaCOre\obj\Debug\netcoreapp3.1\PersistenciaCOre.AssemblyInfo.cs
