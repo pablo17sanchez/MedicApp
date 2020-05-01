@@ -13,7 +13,7 @@ namespace MedicApp.BusinessLogic.Implementations
         {
             _unitOfWork = unitOfWork;
         }
-        public IEnumerable<ARSList> ConsultorioPagedList(int page, int rows)
+        public IEnumerable<ARSList> ARSPagedList(int page, int rows)
         {
             return _unitOfWork.ARS.ArsPagedList(page, rows);
         }

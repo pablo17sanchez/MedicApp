@@ -10,7 +10,7 @@ namespace MedicApp.BusinessLogic.Interfaces
     {
         ARS GetById(int id);
         IEnumerable<ARS> GetList();
-        IEnumerable<ARSList> ConsultorioPagedList(int page, int rows);
+        IEnumerable<ARSList> ARSPagedList(int page, int rows);
         int Insert(ARS ars);
         bool Update(ARS ars);
         bool Delete(ARS ars);
