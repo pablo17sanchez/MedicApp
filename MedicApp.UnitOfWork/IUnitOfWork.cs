@@ -13,5 +13,7 @@ namespace MedicApp.UnitOfWork
         IServicioRepository Servicio { get; }
         INCFRepository NCF { get; }
         IDocumentosRepository Documentos { get; }
+        ICitasRepository Citas { get; }
+        IUsuarioRepository Usuario { get; }
     }
 }

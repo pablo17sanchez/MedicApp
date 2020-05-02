@@ -16,7 +16,8 @@ namespace MedicApp.DataAccess
             Servicio = new ServicioRepository(connectionString);
             Documentos = new DocumentosRepository(connectionString);
             NCF = new NCFRepository(connectionString);
-
+            Citas = new CitaRepository(connectionString);
+            Usuario = new UsuarioRepository(connectionString);
         }
 
         public IMedicoRepository Medico { get; private set; }
@@ -36,5 +37,9 @@ namespace MedicApp.DataAccess
         public INCFRepository NCF { get; private set; }
 
         public IDocumentosRepository Documentos { get; private set; }
+
+        public ICitasRepository Citas { get; private set; }
+
+        public IUsuarioRepository Usuario { get; private set; }
     }
 }

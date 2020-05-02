@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A54FC79E-10F5-4602-89DB-49FC705A79C1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Persistencia</RootNamespace>
+    <AssemblyName>Persistencia</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AR.cs" />
+    <Compile Include="Cita.cs" />
+    <Compile Include="Consultorio.cs" />
+    <Compile Include="DetalleFactura.cs" />
+    <Compile Include="Documento.cs" />
+    <Compile Include="Factura.cs" />
+    <Compile Include="Historico.cs" />
+    <Compile Include="Medico.cs" />
+    <Compile Include="Migrations\202005011408397_AddUserTable.cs" />
+    <Compile Include="Migrations\202005011408397_AddUserTable.Designer.cs">
+      <DependentUpon>202005011408397_AddUserTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005011411306_CrearSegudabasededatos.cs" />
+    <Compile Include="Migrations\202005011411306_CrearSegudabasededatos.Designer.cs">
+      <DependentUpon>202005011411306_CrearSegudabasededatos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005021350232_AddingContrainsToUserTable.cs" />
+    <Compile Include="Migrations\202005021350232_AddingContrainsToUserTable.Designer.cs">
+      <DependentUpon>202005021350232_AddingContrainsToUserTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005021358388_CorrectingDatabaseSemanticErros.cs" />
+    <Compile Include="Migrations\202005021358388_CorrectingDatabaseSemanticErros.Designer.cs">
+      <DependentUpon>202005021358388_CorrectingDatabaseSemanticErros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005021407012_AddingStatusToAllTables.cs" />
+    <Compile Include="Migrations\202005021407012_AddingStatusToAllTables.Designer.cs">
+      <DependentUpon>202005021407012_AddingStatusToAllTables.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005021456004_SandForPassword.cs" />
+    <Compile Include="Migrations\202005021456004_SandForPassword.Designer.cs">
+      <DependentUpon>202005021456004_SandForPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Model1.cs" />
+    <Compile Include="NCF.cs" />
+    <Compile Include="Paciente.cs" />
+    <Compile Include="Provincia.cs" />
+    <Compile Include="Sector.cs" />
+    <Compile Include="Servicio.cs" />
+    <Compile Include="sysdiagram.cs" />
+    <Compile Include="Usuario.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202005011408397_AddUserTable.resx">
+      <DependentUpon>202005011408397_AddUserTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005011411306_CrearSegudabasededatos.resx">
+      <DependentUpon>202005011411306_CrearSegudabasededatos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005021350232_AddingContrainsToUserTable.resx">
+      <DependentUpon>202005021350232_AddingContrainsToUserTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005021358388_CorrectingDatabaseSemanticErros.resx">
+      <DependentUpon>202005021358388_CorrectingDatabaseSemanticErros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005021407012_AddingStatusToAllTables.resx">
+      <DependentUpon>202005021407012_AddingStatusToAllTables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005021456004_SandForPassword.resx">
+      <DependentUpon>202005021456004_SandForPassword.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
