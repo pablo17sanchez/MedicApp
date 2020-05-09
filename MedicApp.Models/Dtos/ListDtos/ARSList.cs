@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace MedicApp.Models.Dtos.ListDtos
+﻿namespace MedicApp.Models.Dtos.ListDtos
 {
-    public class ARSList
+    public class ARSList : ARS
     {
         public int TotalRecords { get; set; }
     }

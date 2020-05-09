@@ -38,7 +38,7 @@ namespace MedicApp.BusinessLogic.Implementations
 
         public bool Update(Usuarios usuario)
         {
-            throw new NotImplementedException();
+            return _unitOfWork.Usuario.Update(usuario);
         }
 
         public IEnumerable<UsuariosList> UsuarioPagedList(int page, int rows)

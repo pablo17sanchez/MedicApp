@@ -37,7 +37,7 @@ namespace MedicApp.WebApi.Controllers
         [HttpPost]
         public IActionResult Post([FromBody]Usuarios usuario)
         {
-            if (!ModelState.IsValid) return BadRequest();
+            if (!ModelState.IsValid) return BadRequest(usuario);
             return Ok(_logic.Insert(usuario));
         }
         [HttpPut]

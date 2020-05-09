@@ -31,6 +31,9 @@ namespace MedicApp.WebApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddTransient<ICitasLogic, CitasLogic>();
+            services.AddTransient<IUsuarioLogic, UsuarioLogic>();
+
 
             services.AddTransient<IArsLogic, ARSLogic>();
             services.AddTransient<IConsultorioLogic, ConsultorioLogic>();
@@ -41,6 +44,8 @@ namespace MedicApp.WebApi
             services.AddTransient<IProvinciaLogic, ProvinciaLogic>();
             services.AddTransient<ISectorLogic, SectorLogic>();
             services.AddTransient<IServicioLogic, ServicioLogic>();
+
+
             services.AddSingleton<IUnitOfWork>(option => new MedicAppUnitOfWork(
                Configuration.GetConnectionString("Store")
                ));
@@ -73,7 +78,10 @@ namespace MedicApp.WebApi
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            app.UseCors(option =>
+            {
+                option.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin();
+            });
             app.UseAuthentication();
             app.UseAuthorization();
 

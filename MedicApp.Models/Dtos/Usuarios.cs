@@ -17,8 +17,9 @@ namespace MedicApp.Models.Dtos
         public string Correo { get; set; }
 
         public string UserName { get; set; }
+        public string Rol { get; set; }
 
         public string Password { get; set; }
-        public string SandForPassword { get; set; }
+        public string? SandForPassword { get; set; }
     }
 }

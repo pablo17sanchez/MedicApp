@@ -8,6 +8,7 @@ namespace MedicApp.Models.Dtos
 
 
         public string Nombre { get; set; }
+        public bool Status { get; set; }
 
     }
 }

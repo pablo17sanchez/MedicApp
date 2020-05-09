@@ -12,5 +12,6 @@ namespace MedicApp.Models.Dtos
 
 
         public string CodigoPostal { get; set; }
+        public bool Status { get; set; }
     }
 }
