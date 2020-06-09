@@ -1,36 +1,24 @@
 # Heredar atributes de otros DTOS 
 
 
-Este comentario espara hacer notar que heredo los atributos creados anteriormente para agregar un nuevo a cada atributo
-
-
-
-## Table of Contents (Optional)
-
-> If your `README` has a lot of info, section headers might be nice.
-
-- [Installation](#installation)
-- [Features](#features)
-- [Contributing](#contributing)
-- [Team](#team)
-- [FAQ](#faq)
-- [Support](#support)
-- [License](#license)
-
+Este comentario espara hacer notar que heredo los atributos creados anteriormente para agregar un nuevo a cada atributo ejemplo 
 
 ---
 
-## Example (Optional)
+## Ejemplo
 
-```javascript
+```C#
 // code away!
 
-let generateProject = project => {
-  let code = [];
-  for (let js = 0; js < project.length; js++) {
-    code.push(js);
-  }
-};
+  public class ARSList : ARS
+    {
+        public int TotalRecords { get; set; }
+    }
 ```
 
 ---
+
+
+El codigo anterior heredo los atributos de ars y agrege totalderegistro por que me interesa ver el total de registro que tengo almacenado
+
+Enlace de referencia https://albertcapdevila.net/patron-diseno-factoria-simple-csharp/
