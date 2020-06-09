@@ -5,17 +5,32 @@ Este comentario espara hacer notar que heredo los atributos creados anteriorment
 
 
 
+## Table of Contents (Optional)
+
+> If your `README` has a lot of info, section headers might be nice.
+
+- [Installation](#installation)
+- [Features](#features)
+- [Contributing](#contributing)
+- [Team](#team)
+- [FAQ](#faq)
+- [Support](#support)
+- [License](#license)
+
+
 ---
 
-## Example (
+## Example (Optional)
 
 ```javascript
 // code away!
 
-  public class ARSList : ARS
-    {
-        public int TotalRecords { get; set; }
-    }
+let generateProject = project => {
+  let code = [];
+  for (let js = 0; js < project.length; js++) {
+    code.push(js);
+  }
+};
 ```
 
 ---
