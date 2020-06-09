@@ -1,0 +1,13 @@
+# Heredar atributes de otros DTOS 
+
+
+Este comentario espara hacer notar que heredo los atributos creados anteriormente para agregar un nuevo a cada atributo
+```javascript
+// code away!
+
+  public class ARSList : ARS
+    {
+        public int TotalRecords { get; set; }
+    }
+    
+    ```
