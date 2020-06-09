@@ -2,6 +2,13 @@
 
 
 Este comentario espara hacer notar que heredo los atributos creados anteriormente para agregar un nuevo a cada atributo
+
+
+
+---
+
+## Example (
+
 ```javascript
 // code away!
 
@@ -9,5 +16,6 @@ Este comentario espara hacer notar que heredo los atributos creados anteriorment
     {
         public int TotalRecords { get; set; }
     }
-    
-    ```
+```
+
+---
