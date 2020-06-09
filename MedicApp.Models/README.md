@@ -7,3 +7,5 @@ Una de las problemáticas más comunes cuando desarrollamos aplicaciones, es dis
 El patrón DTO tiene como finalidad de crear un objeto plano (POJO) con una serie de atributos que puedan ser enviados o recuperados del servidor en una sola invocación, de tal forma que un DTO puede contener información de múltiples fuentes o tablas y concentrarlas en una única clase simple.
 
 <img src="https://www.oscarblancarteblog.com/wp-content/uploads/2018/11/mapping.png" title="Ejemplo" alt="Ejemplo ">
+
+ Referencia <a href="https://www.oscarblancarteblog.com/2018/11/30/data-transfer-object-dto-patron-diseno/">https://www.oscarblancarteblog.com/2018/11/30/data-transfer-object-dto-patron-diseno/</a>
